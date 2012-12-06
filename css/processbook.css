@@ -1,0 +1,30 @@
+.dOne {
+	background-color: green;
+}
+
+.dTwo {
+	background-color: blue;
+}
+
+.mainsection {
+}
+
+#oneone {
+	border: 1px solid purple;
+}
+
+#onetwo {
+	border: 1px solid pink;
+}
+
+#twoone {
+	border: 1px solid gray;
+}
+
+#twotwo {
+	border: 1px solid lightgray;
+}
+
+.featuredImage {
+	width: 100%;
+}
