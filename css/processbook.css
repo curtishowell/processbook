@@ -1,12 +1,5 @@
-.dOne {
-	background-color: green;
-}
-
-.dTwo {
-	background-color: blue;
-}
-
 .mainsection {
+	padding: 0px 15px;
 }
 
 #oneone {
@@ -28,3 +21,8 @@
 .featuredImage {
 	width: 100%;
 }
+
+h2 {
+	margin-top: 0px; /* reset default */
+}
+
