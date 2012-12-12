@@ -33,6 +33,7 @@ body {
 	float: left;
 	text-shadow: #39275b 0.05em 0.05em 0.1em;
 	font-size: 48px;
+	margin-bottom: 40px;
 }
 
 #header p {
@@ -45,20 +46,33 @@ body {
 /* sections ******************************/
 .section {
 	overflow: hidden;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
+	margin-bottom: 50px;
 }
 
 h2 {
-	background-color: #39275b;
+	background: #39275b url(img/h2blackend.png) no-repeat right center;
 	padding-left: 40px;
 	padding-top: 5px;
 	height: 35px;
 	clear: both;
-	margin-left:-25px;;
+	margin-left:-25px;
+}
+
+h2, .textblock {
+	box-shadow: 0px 1px 5px #211638;
+	-moz-box-shadow: 0px 1px 5px #211638;
+	-webkit-box-shadow: 0px 1px 5px #211638;
+}
+
+.triangle {
+	height: 20px;
+	background-image: url('img/triangle.png');
+	background-repeat: no-repeat;
+	margin-left: -25px;
 }
 
 .component {
-	padding: 20px;
 	width: 40%;
 }
 
@@ -67,11 +81,15 @@ h2 {
 	background: rgb(255, 255, 255);
 	/* RGBa with 0.6 opacity */
 	background: rgba(255, 255, 255, 0.7);
-	
-	
+
+	padding: 20px;
 }
 
 .textblock p {
+	color: black;
+}
+
+.textblock strong {
 	color: black;
 }
 
