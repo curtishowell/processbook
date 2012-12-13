@@ -34,6 +34,7 @@ body {
 	text-shadow: #39275b 0.05em 0.05em 0.1em;
 	font-size: 48px;
 	margin-bottom: 40px;
+	font-weight: 100;
 }
 
 #header p {
@@ -57,6 +58,8 @@ h2 {
 	height: 35px;
 	clear: both;
 	margin-left:-25px;
+	width:925px;
+	font-weight: normal;
 }
 
 .triangle {
